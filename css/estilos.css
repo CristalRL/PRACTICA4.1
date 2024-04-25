@@ -1,0 +1,40 @@
+table {
+    border-collapse: collapse; 
+    width: 100%; 
+}
+
+.header-row th {
+    background-color: rgba(255, 255, 0, 0.5); 
+    color: black; 
+    text-align: center; 
+    font-size: 20px; 
+    font-weight: bold; 
+    padding: 15px; 
+}
+
+tr {
+    border-bottom: 1px solid black; 
+}
+
+th, td {
+    padding: 8px; 
+    border: 1px solid black; 
+}
+
+.blue-row th, .blue-row td {
+    background-color: lightblue; 
+    color: white; 
+    text-align: center; 
+}
+
+tr:not(.blue-row) td {
+    background-color: lightgray; 
+    color: black; 
+    text-align: center; 
+}
+
+thead th {
+    background-color: lightgray; 
+    color: black; 
+    text-align: center; 
+}

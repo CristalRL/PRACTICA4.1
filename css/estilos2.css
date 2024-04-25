@@ -1,0 +1,29 @@
+table {
+    border-collapse: collapse; 
+    width: 100%;
+    border: 2px solid white; 
+}
+
+
+.green-row th, .green-row td {
+    background-color: green; 
+    color: white; 
+    text-align: center; 
+    border: 2px solid white; 
+}
+
+
+tr:not(.green-row) td {
+    background-color: lightgreen; 
+    color: black; 
+    text-align: center; 
+    border: 2px solid white; 
+}
+
+
+thead th {
+    background-color: lightgray; 
+    color: black; 
+    text-align: center; 
+    border: 2px solid white;
+}
